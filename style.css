@@ -30,3 +30,49 @@ header {
     justify-content: space-between;
     align-items: center;
 }
+
+header h1 {
+  font-size: 1.25rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ff6600;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  padding: 60px 0;
+  border: #1e1e2f 2px solid;
+}
+
+.profile-img {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.about-text {
+  flex: 1;
+}
+.about-text h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+.about-text p {
+  font-size: 1.1rem;
+}
